@@ -1,2 +1,2 @@
 # adventofcode22
-My tries of 2022 Advent of Code - done in powershell
+My tries of 2022 Advent of Code - done in powershell for the time being.
