@@ -1,10 +1,3 @@
-#$test=@('C Z')
-#$splitarray=$test.Split(" ")
-#write-host $splitarray
-#$op=$splitarray[0]
-#$you=$splitarray[1]
-#write-host "Op went with $op"
-#write-host "You went with $you"
 $PointsTotal=0
 Write-Host "Points at start: $PointsTotal"
 $winner=@('A Y','B Z','C X')
@@ -19,7 +12,6 @@ foreach ($line in $array)
 $splitarray=$line.Split(" ")
 $op=$splitarray[0]
 $you=$splitarray[1]
-#write-host "Points at Start :$PointsTotal"
 write-host "---"
 write-host "received value: $op and $you" 
 
