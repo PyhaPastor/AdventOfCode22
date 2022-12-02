@@ -10,7 +10,6 @@ if ($part2 = "true")
     $winner=@('A Z','B Z','C Z')
     $loser=@('A X','B X','C X')
     $draw=@('A Y','B Y','C Y')
-
 }
 
 $array=(get-content .\day2\input.txt)
