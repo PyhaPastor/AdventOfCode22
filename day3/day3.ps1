@@ -9,7 +9,6 @@ function part1()
 {
     foreach ($backpack in $DB)
     {
-        #$backpack="CrZsJsPPZsGzwwsLwLmpwMDw" #for testing purposes
         $bp_half=($backpack.Length)/2 #counts string length, divides into 2
         $1half=$backpack.Substring(0,$bp_half) #returns with 0-half of the string
         $2half=$backpack.Substring($bp_half) #returns with the value starting from the second half of string
