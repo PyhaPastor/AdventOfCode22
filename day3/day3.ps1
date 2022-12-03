@@ -2,7 +2,7 @@ $DB=(Get-Content .\day3\input.txt)
 $priority=0
 $total=0
 
-#Call function according to part of task ('part1' or 'part2')
+#Call function according to part of task ('part1' or 'part2') - could have implemented a selection for it but ... meeh :)
 #part1
 part2
 function part1()
