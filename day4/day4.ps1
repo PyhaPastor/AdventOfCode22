@@ -15,8 +15,8 @@ foreach ($pairs in $DB)
     $splitpair=$pairs -split (",")
     #$splitpair[0]
     #$splitpair[1]
-    $range1=$splitpair[0] -split ("-") #needs to be inserted into a cycle and added 2 to variable value
-    $range2=$splitpair[1] -split ("-") #needs to be inserted into a cycle and added 2 to variable value
+    $range1=$splitpair[0] -split ("-")
+    $range2=$splitpair[1] -split ("-")
     #$a=$a+2
     #$b=$b+2
     #$range1
