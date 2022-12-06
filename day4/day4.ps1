@@ -4,7 +4,7 @@ $DB=(Get-Content .\day4\input.txt)
 #$DB="2-4,6-8"
 #$DB="5-7,7-9"
 #create an array of 100 numbers (integers)
-$numbers=1..100
+#$numbers=1..100
 
 $a=0
 $b=0
