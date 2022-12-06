@@ -1,6 +1,6 @@
 #$DB=(get-content .\day4\example.txt)
-$DB=(Get-Content .\day4\input.txt)
-#$DB="2-8,3-7"
+#$DB=(Get-Content .\day4\input.txt)
+$DB="2-8,3-7"
 #$DB="2-4,6-8"
 #$DB="5-7,7-9"
 #create an array of 100 numbers (integers)
@@ -42,10 +42,6 @@ foreach ($pairs in $DB)
         $b++
         #write-host "found at least one overlap from pair $splitpair"
     }
-    
-
-    
-
     #Compare-Object $elf2 $elf1 -IncludeEqual
 }
 Write-Host "Total of full overlaps: $a"
